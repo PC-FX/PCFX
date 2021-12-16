@@ -1,0 +1,40 @@
+# CMake
+/CMakeUserPresets.json
+/CMakeCache.txt
+/build
+CMakeFiles
+Makefile
+*.a
+*.cmake
+/src/*.exe
+/src/86Box
+/src/include/86box/version.h
+
+# Legacy Makefile
+/src/*.o
+/src/*.d
+/src/*.res
+/src/*.dll
+/src/NUL
+
+# State
+/src/*.cfg
+/src/*.log
+/src/*.dmp
+/src/nvr/
+/src/printer/
+/src/roms/
+/src/screenshots/
+
+# Build scripts
+/archive_tmp
+/static2dll.*
+/VERSION
+*.zip
+*.tar
+*.tar.*
+
+# Visual Studio Code
+/.vs
+/.vscode
+src/win/RCa04980
